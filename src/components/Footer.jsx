@@ -34,7 +34,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              &copy; {currentYear} SkyView. All rights reserved.
+              &copy; {currentYear} Created By Charles. All rights reserved.
             </p>
           </div>
         </div>
