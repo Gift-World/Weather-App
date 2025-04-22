@@ -19,7 +19,7 @@ export const WeatherProvider = ({ children }) => {
     setError(null)
     
     try {
-      const response = await axios.get(`http://localhost:5000/weather?city=${city}`)
+      const response = await axios.get(`https://weather-backend-mej7.onrender.com/weather?city=${city}`)
       setWeatherData(response.data)
       
       // Update recent searches
